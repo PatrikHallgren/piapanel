@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "piavpn",
+  "name": "PIA VPN",
+  "version": "1.0.0",
+  "author": "PatrikHallgren",
+  "license": "MIT",
+  "description": "Private Internet Access status, on/off switch, and region picker in the Omarchy bar.",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "Panel.qml" },
+  "barWidget": {
+    "displayName": "PIA VPN",
+    "description": "Toggle Private Internet Access and pick a region from the bar.",
+    "category": "Network",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {}
+  }
+}
